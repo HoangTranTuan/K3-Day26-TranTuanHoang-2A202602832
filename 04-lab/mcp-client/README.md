@@ -63,12 +63,12 @@ uv sync
 ### 4. Run the Agent
 
 ```bash
-uv run adk web
+uv run adk web --port 8002
 ```
 
 ### 5. Use the Agent
 
-1. Open browser: http://localhost:8000
+1. Open browser: http://localhost:8002
 2. Select `weather_agent` from dropdown
 3. Ask questions like:
    - "What's the weather in Brisbane?"

@@ -140,8 +140,8 @@ def main():
     if all(checks):
         print("✅ All checks passed!")
         print("\n🚀 Ready to start!")
-        print("   Run: uv run adk web")
-        print("\n📍 Then open: http://localhost:8000")
+        print("   Run: uv run adk web --port 8002")
+        print("\n📍 Then open: http://localhost:8002")
         return 0
     else:
         print("❌ Some checks failed")
